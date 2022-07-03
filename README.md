@@ -6,8 +6,7 @@
     - Deployment of Kafka environment with Consumer/Producer using Strimzi CRD, Graphana and Prometheus Helm charts for Installation. Automation steps are executed with Ansible. 
     - CI CD created in Jenkins using Terraform plugin.
     
-    ```
-
+```
 +------------+      +---------------+     +--------------+
 | Jenkins    | +--> |  Terraform    +---> |   AWS AKS    |
 |            |      |               |     |              |
